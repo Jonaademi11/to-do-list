@@ -15,13 +15,13 @@ function ToDoForm() {
       >
         <Input
           color="neutral"
-          size="lg"
+          size="md"
           variant="soft"
           placeholder="Enter Your task!"
           required
           sx={{ marginRight: 1 }}
           endDecorator={
-            <Button type="submit" color="neutral">
+            <Button type="submit" color="danger">
               Submit
             </Button>
           }
